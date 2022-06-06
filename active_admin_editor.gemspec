@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,config,db,lib,vendor}/**/*'] + ['MIT-LICENSE', 'Rakefile', 'README.md']
   s.test_files = Dir['spec/**/*']
 
-  s.add_dependency 'rails', '>= 6.0.0'
+  s.add_dependency 'rails', '>= 5.0.0'
   s.add_dependency 'activeadmin', '>= 2.12.0'
   s.add_dependency 'ejs'
 
